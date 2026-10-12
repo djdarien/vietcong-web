@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vietcong-web — procedural prototype</title>
+  <style>
+    body { margin: 0; overflow: hidden; background: #000; font-family: monospace; color: #0f0; }
+    canvas { display: block; }
+    #info { position: absolute; top: 10px; left: 10px; pointer-events: none; text-shadow: 0 0 4px #000; }
+  </style>
+</head>
+<body>
+  <div id="info">WASD move | Mouse look | Click shoot<br>Procedural prototype — no original assets</div>
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+      }
+    }
+  </script>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
