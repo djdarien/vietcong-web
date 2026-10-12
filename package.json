@@ -1,0 +1,10 @@
+{
+  "name": "vietcong-web",
+  "version": "0.2.0",
+  "description": "Clean-room Vietcong-style web prototype. Procedural only, no original assets.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "license": "MIT"
+}

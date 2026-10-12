@@ -1,0 +1,2 @@
+assets-local/*
+!assets-local/.gitignore
